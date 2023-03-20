@@ -1,1 +1,3 @@
 # intexsoft-course
+
+Vasko Andrey
