@@ -1,0 +1,62 @@
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: end;
+}
+
+h1,
+h2 {
+    color: orange;
+}
+
+h2:last-of-type {
+    color: blue;
+}
+
+.text::first-letter {
+    color: red;
+    font-size: 35px;
+}
+
+.text span {
+    color: white;
+    background: green;
+    font-style: italic;
+}
+
+ul li span {
+    font-weight: bold;
+}
+
+li:last-child ol li {
+    color: red;
+}
+
+.garden-list li:nth-of-type(1) ol li {
+    color: gray;
+}
+
+.stock-list li:nth-of-type(1) ol li {
+    color: green;
+}
+
+.students-table {
+    width: 450px;
+}
+
+td:first-of-type {
+    color: orange;
+}
+
+table td + td {
+    color: #fff;
+    background-color: green;
+    text-align: center;
+}
+
+tr td:not(td:first-of-type) {
+    background-color: green;
+}
