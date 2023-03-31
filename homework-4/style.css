@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: none;
+  }
+  
+  .card-item::before {
+      content: url(./assets/icons8-галочка-15.png);
+      margin-right: 13px;
+      margin-left: 32px;
+  }
+  
+  .card-item:nth-child(odd) {
+      background-color: #edf5fd; 
+  }
+  
+  .card-item:nth-child(even) {
+      background-color: #f5f5f6;
+  }
+  
+  .card-item:nth-child(1),
+  .card-item:nth-child(2) {
+      text-transform: uppercase;
+  }
+  
+  .card-item {
+      display: flex;
+      align-items: center;
+      color: #888c94;
+      letter-spacing: .1px;
+      width: 260px;
+      height: 33px;
+      margin-bottom: 2px;
+  }
+   
+  ul {
+      padding-left: 13px;
+  }
+  
+  .card-wrapper {
+      width: 295px;
+      height: 465px;
+      border: 4px solid #ee8129;
+      margin: 200px auto;
+      box-shadow: 0 0 5px 5px rgba(234, 243, 248, 1);
+  }
+  
+  .card-title {
+      text-transform: uppercase;
+      text-align: center;
+      color: #fff;
+      font-weight: 500;
+      background-color: #ee8129;
+      margin: 0;
+      padding: 23px;
+  }
+  
+  .card-preTitle {
+      font-size: 23px;
+      text-transform: uppercase;
+      text-align: center;
+      color: #3f4042;
+      font-weight: 500;
+      margin: 15px 0 15px 0px;
+      letter-spacing: .5px;
+  }
+  
+  .card-price {
+      position: relative;
+      text-align: center;
+      color: #35495a;
+      font-size: 70px;
+      font-weight: bold;
+      margin-right: 41px;
+      margin-bottom: 18px;
+  }
+  
+  sup {
+      position: absolute;
+      left: 25%;
+      top: 5%;
+      display: block;
+      background-image: url(./assets/dollar-sign.png);
+      width: 20px;
+      height: 25px;
+  }
+  
+  sub {
+      position: absolute;
+      font-weight: 600;
+      right: 7%;
+      top: 73%;
+  }
+  
+  sub,
+  sup {
+      font-size: 16px;
+  }
+  
+  .card-btn {
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 600;
+      width: 250px;
+      height: 40px;
+      color: #fff;
+      background-color: #ee8129;
+      border-radius: 3px;
+      margin-left: 20px;
+      border: 2px solid #dfae86; 
+      border-bottom: 2px solid #b3560b;
+      cursor: pointer;
+  }
+  .card-btn:hover {
+      background-color: hsl(27, 86%, 60%);
+      transition: .5s;
+  }
