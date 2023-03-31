@@ -110,7 +110,7 @@ sup {
     margin-left: 20px;
     border: 2px solid #ee8129; 
     cursor: pointer;
-    box-shadow: 0 4px #b3560b;
+    box-shadow: 0 3px #b3560b;
 }
 .card-btn:hover {
     background-color: hsl(27, 86%, 60%);
