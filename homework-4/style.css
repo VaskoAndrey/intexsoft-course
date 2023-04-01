@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: none;
+}
+
+.card-prices-list {
+    margin: 150px auto;
+}
+
+.card-mainTitle {
+    text-align: center;
+    text-transform: uppercase;
+    color: #40525d;
+    letter-spacing: 0.4px;
+    margin-bottom: 65px;
+}
+
+.card-item::before {
+    content: url(./assets/icons8-галочка-15.png);
+    margin-right: 13px;
+    margin-left: 32px;
+}
+
+.card-item:nth-child(odd) {
+    background-color: #edf5fd;
+}
+
+.card-item:nth-child(even) {
+    background-color: #f5f5f6;
+}
+
+.card-item:nth-child(1),
+.card-item:nth-child(2) {
+    text-transform: uppercase;
+}
+
+.card-item {
+    display: flex;
+    align-items: center;
+    color: #888c94;
+    letter-spacing: 0.1px;
+    width: 260px;
+    height: 33px;
+    margin-bottom: 2px;
+}
+
+ul {
+    padding-left: 13px;
+}
+
+.card-wrapper {
+    width: 295px;
+    height: 465px;
+    border: 4px solid #ee8129;
+    margin: 0;
+    box-shadow: 0 0 5px 5px rgba(234, 243, 248, 1);
+    border-radius: 5px;
+}
+
+.card-title {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    background-color: #ee8129;
+    margin: 0;
+    padding: 23px;
+}
+
+.card-preTitle {
+    font-size: 23px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #3f4042;
+    font-weight: 500;
+    margin: 15px 0 15px 0px;
+    letter-spacing: 0.5px;
+}
+
+.card-price {
+    position: relative;
+    text-align: center;
+    color: #35495a;
+    font-size: 70px;
+    font-weight: bold;
+    margin-right: 41px;
+    margin-bottom: 18px;
+}
+
+sup {
+    position: absolute;
+    left: 25%;
+    top: 5%;
+    display: block;
+    background-image: url(./assets/dollar-sign.png);
+    width: 20px;
+    height: 25px;
+}
+
+sub {
+    position: absolute;
+    font-weight: 600;
+    right: 7%;
+    top: 73%;
+}
+
+sub,
+sup {
+    font-size: 16px;
+}
+
+.card-btn {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    width: 250px;
+    height: 40px;
+    color: #fff;
+    background-color: #ee8129;
+    border-radius: 3px;
+    margin-left: 20px;
+    border: 2px solid #ee8129;
+    cursor: pointer;
+    box-shadow: 0 3px #b3560b;
+}
+.card-btn:hover {
+    background-color: hsl(27, 86%, 60%);
+    transition: 0.5s;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aqua-card {
+    background-color: #2bc2d4;
+    height: 60px;
+    padding: 15px;
+}
+
+.card-wrapper:first-child {
+    border: 1px solid #e8eaec;
+    border-top: 4px solid #2bc2d4;
+    border-right: 0;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: none;
+    height: 440px;
+    margin-top: 5px;
+}
+
+.green-card {
+    background-color: #00b89a;
+    height: 60px;
+    padding: 15px;
+}
+
+.card-wrapper:last-child {
+    border: 1px solid #e8eaec;
+    border-top: 4px solid #00b89a;
+    border-left: 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    box-shadow: none;
+    height: 440px;
+    margin-top: 5px;
+}
+
+.card-wrapper:nth-child(2) {
+    box-shadow: none;
+}
+
+.blue-btn {
+    background-color: #2f70a8;
+    border: 2px solid #2f70a8;
+    box-shadow: 0 3px #13426b;
+}
+
+.blue-btn:hover {
+    background-color: hsl(208, 85%, 43%);
+    transition: 0.5s;
+}
+
+.card-wrapper:first-child .card-item:nth-child(1),
+.card-wrapper:first-child .card-item:nth-child(2) {
+    text-transform: none;
+}
+
+.card-wrapper:last-child .card-item:nth-child(1),
+.card-wrapper:last-child .card-item:nth-child(2) {
+    text-transform: none;
+}
