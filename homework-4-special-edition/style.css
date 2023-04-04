@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     perspective: 1500px;
-    perspective-origin: center 25rem;
+    perspective-origin: center 5rem;
 }
 
 @keyframes rotateAround {
@@ -46,7 +46,7 @@ body {
 }
 
 .back {
-    transform: translateZ(5rem);
+    transform: translateZ(-5rem);
     background: rgb(45, 45, 240);
 }
 
