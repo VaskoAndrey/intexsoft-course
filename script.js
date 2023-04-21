@@ -21,7 +21,7 @@ function getAllSMS(text) {
     const word = words[i];
     const wordLength = word.length;
 
-    if (currentSMS.length + wordLength + 3 > maxSMSLength) {
+    if (currentSMS.length + wordLength + 4 > maxSMSLength) {
       result.push(`${currentSMS} ${currentSMSIndex}/${totalResult}`);
       currentSMS = "";
       currentSMSIndex++;
