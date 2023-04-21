@@ -61,3 +61,4 @@ function getSMS(arr, it, itEndSize) {
         .concat(iterationResult.result);
     if (result[0]) result[0] += totalIterationCount;
     return { result, needNewRecursion: iterationResult.needNewRecursion };
+}
